@@ -1,16 +1,18 @@
 var relationsData = [ {
-    title: 'Introducing Telescope',
+    type: 'Introducing Telescope',
     author: 'Sacha Greif',
     url: 'http://sachagreif.com/introducing-telescope/'
 }, {
-    title: 'Meteor',
+    type: 'Meteor',
     author: 'Tom Coleman',
     url: 'http://meteor.com'
 }, {
-    title: 'The Meteor Book',
+    type: 'The Meteor Book',
     author: 'Tom Coleman',
     url: 'http://themeteorbook.com'
 } ];
-Template.postsList.helpers({
-  posts: postsData
+
+
+Template.relationsList.helpers({
+  relations: relationsData
 });

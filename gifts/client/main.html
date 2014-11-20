@@ -1,33 +1,15 @@
 <head>
   <title>Blank Space</title>
 </head>
+
 <body>
   <div class="container">
-    <!-- <div class ="navbar">
+    <div class="header">
       I'm shopping for my
-      <div class="relation">
-        {{#each relations}}
-        {{type}}
-        {{/each}}
+      <div id="main" class="row-fluid">
+        {{> relationsList}}
       </div>
-    </div> -->
-
-
-
-
-    <div class="container" id="main" role="main">
-      <ul class="menu">
-        <li><a href="#s1">I'm shopping for</a></li>
-        <li><a href="#s1">Menu 1</a>
-          <ul class="submenu">
-            <li><a href="#">Submenu a</a></li>
-            <li><a href="#">Submenu b</a></li>
-          </ul>
-        </li>
-      </ul>
     </div>
-
   </div>
 
-  <!-- here we'd insert a dropdown menu, and pipe in the categories- no need for a template -->
 </body>

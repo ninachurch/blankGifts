@@ -3,11 +3,14 @@
 </head>
 <body>
   <div class="container">
-    <header class="navbar">
-      <div class="navbar-inner">
-        <a class="brand" href="/">sup</a>
+    <div class ="sentence">
+    I'm shopping for my
+      <div class="relation">
+        {{#each relations}}
+          {{type}}
+        {{/each}}
       </div>
-    </header>
+    </div>
   </div>
 
     <!-- here we'd insert a dropdown menu, and pipe in the categories- no need for a template -->
